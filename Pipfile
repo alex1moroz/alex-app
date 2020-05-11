@@ -1,0 +1,36 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-silk = "*"
+codecov = "*"
+v = {editable = true,version = "*"}
+freezegun = "*"
+httpie = "*"
+ipython = "*"
+isort = "*"
+line-profiler = "*"
+pudb = "*"
+
+[packages]
+jinja2 = "*"
+django = "*"
+delorean = "*"
+requests = "*"
+whitenoise = "*"
+uvicorn = "*"
+sentry-sdk = "*"
+python-binary-memcached = "*"
+icalevents = "*"
+dynaconf = {extras = ["yaml"],version = "*"}
+django-bmemcached = "*"
+django-ipware = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+django-robots = "*"
+
+[requires]
+python_version = "3.8"
